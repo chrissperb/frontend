@@ -53,4 +53,4 @@ jobs:
           app-name: 'borbolelala-estoque-api'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_735EC550DD6D45938A2C9F978B36B5E6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B05F8681AA8D4EA78435EF69437242AC }}
