@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ===========================================================
     // API ESTOQUE (Conectado ao Backend Spring Boot com MongoDB)
     // ===========================================================
-    const API_BASE_URL = 'http://localhost:8080/api/produtos';
+    const API_BASE_URL = 'http://borbolelala-estoque-api-backend.azurewebsites.net';
     const LOW_STOCK_THRESHOLD = 5;
 
     const api = (() => {
