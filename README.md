@@ -77,6 +77,7 @@ Visualiza os testes rodando passo a passo no navegador.
 npx cypress open
 ```
 *Selecione "E2E Testing" > Escolha o navegador > Clique em estoque.feature.*
+
 3. **Rodar em modo Headless (Terminal):**
 Ideal para CI/CD, roda todos os testes em background e gera vídeo.
 ```Bash
@@ -101,7 +102,7 @@ TESTOMATIO="SUA_API_KEY" npx cypress run  # Executa e envia o relatório
 
 ### 🎁 Bônus: `.gitignore` Essencial
 
-Como agora você tem a pasta `node_modules` (que é gigante e não deve ir para o GitHub), crie um arquivo chamado `.gitignore` na raiz do projeto e cole isso:
+Como agora deve surgir a pasta `node_modules` (que é gigante e não deve ir para o GitHub), crie um arquivo chamado `.gitignore` na raiz do projeto e cole isso:
 
 ```text
 node_modules/
