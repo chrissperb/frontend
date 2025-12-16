@@ -18,35 +18,11 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout do código
-        uses: actions/checkout@v4
-
-      - name: Configurar Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Instalar Dependências
-        run: npm ci
-
-      - name: Build do Projeto
-        run: npm run build
-
-      - name: Upload do Artefato
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: './dist'
-
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Deploy para o GitHub Pages
         id: deployment
