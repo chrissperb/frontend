@@ -13,13 +13,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
-      # (Opcional) Etapa de build — caso use bundlers, npm, etc.
-      # - name: Install and build
-      #   run: |
-      #     npm install
-      #     npm run build
-
+      
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:

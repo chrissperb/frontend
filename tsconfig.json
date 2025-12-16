@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "baseUrl": "./",
+    "paths": {
+      "@steps/*": ["cypress/e2e/step_definitions/*"],
+      "@support/*": ["cypress/support/*"],
+      "crypto": ["node_modules/crypto-browserify"],
+      "stream": ["node_modules/stream-browserify"]
+    },
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": false
+  },
+  "include": ["cypress/**/*", "src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
