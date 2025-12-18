@@ -1,10 +1,10 @@
 # Estoque UI - Borbolêlalá
 
-Interface de usuário (Frontend) para o sistema de gerenciamento de estoque da Borbolêlalá. Este projeto fornece uma interface web rica, amigável e responsiva para interagir com a [API de Estoque](https://github.com/chrissperb/estoque-api-backend).
+Interface de usuário (Frontend) para o sistema de gerenciamento de estoque da Borbolêlalá. Este projeto fornece uma interface web rica, amigável e responsiva para interagir com a [API de Estoque](https://github.com/SEU_USUARIO/borbolelala-backend).
 
-A aplicação foi desenvolvida com foco na simplicidade e eficiência, utilizando HTML, CSS e JavaScript puro (Vanilla JS), garantindo alta performance. Além disso, o projeto conta com uma suíte robusta de testes automatizados E2E.
+A aplicação foi desenvolvida com foco na simplicidade e eficiência, utilizando HTML, CSS e JavaScript puro (Vanilla JS), garantindo alta performance. Além disso, o projeto conta com uma **suíte robusta de testes automatizados E2E**.
 
-## ✨ Funcionalidades
+## ✨ Funcionalidades existentes
 
 * **Dashboard Intuitivo:** Visualização de todos os produtos em uma tabela clara, com busca e filtros dinâmicos.
 * **Gestão Completa de Produtos:** Interface baseada em modais para adicionar, editar e remover produtos de forma simples.
